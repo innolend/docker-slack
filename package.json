@@ -1,0 +1,26 @@
+{
+  "name": "innolend-slack",
+  "version": "1.0.0",
+  "description": "A Slack integration to notify Docker events.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innolend/docker-slack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innolend/docker-slack/issues"
+  },
+  "dependencies": {
+    "JSONStream": "^1.0.7",
+    "bluebird": "^3.1.1",
+    "dockerode": "^2.2.3",
+    "event-stream": "^3.3.2",
+    "slack-notify": "^0.1.5"
+  },
+  "homepage": "https://github.com/innolend/docker-slack#readme"
+}
